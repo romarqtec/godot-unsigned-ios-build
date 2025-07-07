@@ -2,13 +2,15 @@
 
 This repository provides a ready-to-use GitHub Action script for building a Godot project for iOS. It enables you to create an iOS build without requiring access to a Mac.
 
+**The script:** [build-ios-unsigned.yml](https://github.com/petrgon/godot-unsigned-ios-build/blob/main/build-ios-unsigned.yml), copy it into `/.github/workflows/` in your repository.
+
 Special thanks to [mak448a](https://github.com/mak448a) for their work, which served as the foundation for this script. See their [repository](https://github.com/mak448a/build-ios) for reference. 
 
 > [!WARNING]
 > Some one-time configuration is required. Please refer to the comments within each step of the YAML file for setup instructions.
 
 > [!WARNING]
-> The output of this pipeline is not intended for distribution. It is meant for local development only. To run the unsigned IPA on your device, you will need to use sideloading methods.
+> The output of this workflow is not intended for distribution. It is meant for local development only. To run the unsigned IPA on your device, you will need to use sideloading methods.
 
 ## How to Sideload an Unsigned IPA
 
